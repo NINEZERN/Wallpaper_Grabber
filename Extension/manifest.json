@@ -1,0 +1,15 @@
+{
+  "manifest_version":2,
+  "version":"1.0",
+  "name":"Wallpaper Grabber",
+  "permissions": [
+    "tabs", "downloads", "downloads.open"
+  ],
+  "content_security_policy": "script-src 'self' http://steamworkshop.download; object-src 'self'",
+  "content_scripts":[
+    {
+     "matches":["https://steamcommunity.com/sharedfiles/filedetails/?id=*"],
+     "js":["background.js"]
+    }
+  ]
+}
