@@ -1,4 +1,4 @@
-# Steam Wallpaper Downloader
+# Wallpaper Grabber
 A browser extension to download wallpapers from Steam Workshop for use with non-licensed Wallpaper Engine.
 
 ## Usage
